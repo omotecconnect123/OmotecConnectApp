@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Tabbbed</string>
+
+    <string name="hint_Student_id">Student ID</string>
+    <string name="hint_Trainer_id">Trainer ID</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">No account? SignUp now!</string>
+    <string name="btn_link_to_login">Already have an account?</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="large_text">
+        "\nXpress with its brand 'On My Own Technology' is an integrated Robotics Institute for children of all ages stimulating\n\nSCIENTIFIC and CREATIVE thinking in young minds through STEAM (Science, Technology, Electronics, Art and Mathematics) education."
+    </string>
+    <string name="contact1"><u>+917045200303</u></string>
+    <string name="contact2"><u>+912226339263</u></string>
+    <string name="email1"><u>reetu.jain@onmyowntechnology.com</u></string>
+    <string name="email2"><u>admin@onmyowntechnology.com</u></string>
+    <string name="forgot_password">Forgot Password</string>
+
+</resources>

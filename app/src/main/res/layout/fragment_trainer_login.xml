@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_register"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".TrainerLogin">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/OutlinedEdittext"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:boxStrokeColor="@color/bg_screen3"
+            android:textColorHint="@color/bg_screen3"
+
+
+
+
+
+
+            >
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Employee_Code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:hint="@string/hint_Trainer_id"
+
+
+            android:inputType="text"
+            android:textAllCaps="true"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/bg_screen3"
+            android:textColorHint="@color/bg_screen3"
+
+                />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/OutlinedEdittext"
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="20dp"
+
+            app:boxStrokeColor="@color/bg_screen3"
+            android:textColorHint="@color/bg_screen3"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/Employee_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+                android:textColor="@color/bg_screen3"
+                android:textColorHint="@color/bg_screen3" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!-- Login Button -->
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            android:id="@+id/btnEmpLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:text="@string/btn_login"
+            android:textColor="@color/btn_login"
+            android:gravity="center"
+            android:outlineSpotShadowColor="@color/bg_register"
+            android:backgroundTint="@color/bg_screen1"
+            android:backgroundTintMode="screen"
+
+            />
+
+
+        <!--
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="Not now...I'll do it later"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" /> -->
+    </LinearLayout>
+</LinearLayout>

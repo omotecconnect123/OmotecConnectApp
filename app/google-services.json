@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617993202629",
+    "firebase_url": "https://tabbbed-dc7ec.firebaseio.com",
+    "project_id": "tabbbed-dc7ec",
+    "storage_bucket": "tabbbed-dc7ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617993202629:android:27dd5700e453cc3b66b9ac",
+        "android_client_info": {
+          "package_name": "com.example.Omotecconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617993202629-6ftetc5ddumrd4b4lt2eg7rkaf4n1de9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Omotecconnect",
+            "certificate_hash": "3310d1e50109516a3c8b1b648e6b10c5f7e0e9e1"
+          }
+        },
+        {
+          "client_id": "617993202629-tbm43e1s8vug61a1uja7cpcijto53kqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjNSalKj16CLPsMVoVc0ex_UjAnTRHJtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617993202629-tbm43e1s8vug61a1uja7cpcijto53kqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

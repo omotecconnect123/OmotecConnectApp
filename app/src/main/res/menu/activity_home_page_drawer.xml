@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Your Account">
+        <menu>
+            <item
+                android:id="@+id/nav_courses"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="My Courses" />
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Account"/>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Login" />
+        </menu>
+    </item>
+
+    <item android:title="Courses Offered">
+        <menu>
+            <item
+                android:id="@+id/nav_six"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Age 6-9" />
+            <item
+                android:id="@+id/nav_nine"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Age 9-12" />
+            <item
+                android:id="@+id/nav_special"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Special Courses" />
+        </menu>
+    </item>
+
+    <item android:title="Know Us">
+        <menu>
+            <item
+                android:id="@+id/nav_team"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Our Team" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_gallery" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Visit Our website" />
+        </menu>
+    </item>
+
+</menu>
